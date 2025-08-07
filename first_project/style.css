@@ -94,17 +94,18 @@ body{
 
 
 .hero-section {
-    padding: 30px 0;
+    padding: 50px 0;
 }
 .hero-container {
     display: grid;
     grid-template-columns: 250px 1fr;
     gap: 30px;
+    padding-left:200px;
 }
 .categories-sidebar {
     border: 1px solid black;
     padding: 15px;
-     background-color: rgb(152, 184, 186);
+     background-color: rgb(217, 227, 228);
     margin-left: 50px;
 }
 .categories-sidebar h3 {
@@ -129,7 +130,7 @@ body{
 }
 
 .hero-banner {
-    background-color: rgb(152, 184, 186);
+    background-color: rgb(216, 230, 231);
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -333,10 +334,6 @@ ul {
 
 
 }
-.instagram-container{
-
-
-}
 
 .section-header p{
     display: block;
@@ -407,4 +404,48 @@ ul {
    margin-top:20px;
     
 }
+.subscribe{
+    display: flex;
+    padding-top: 30px;
+
+
+}
+#subscribe1{
+    width:110px;
+    height:40px;
+    background-color: rgb(255, 255, 255);
+}
+#subscribe2{
+    width:80px;
+    height:40px;
+    background-color: rgb(209, 36, 36);
+    text-align: center;
+    padding:10px;
+    color: azure;
+    font-weight: 300px;
+}
+
+.last-part{
+    height:30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.last-part p{
+    color:aliceblue;
+   
+}
+
+.new-arrivals{
+    height:600px;
+    background-color: rgb(206, 196, 184);
+
+    
+}
+
+
+
+
 
